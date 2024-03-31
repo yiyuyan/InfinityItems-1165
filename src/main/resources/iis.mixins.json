@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.iis.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "iis.refmap.json",
+  "mixins": [
+    "BlockItemInfinityMixin",
+    "BucketMixin",
+    "ItemInfinityMixin",
+    "MilkBucketMixin",
+    "TotemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
